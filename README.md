@@ -11,7 +11,7 @@ Requires at least: 4.6
 Tested up to: 4.7
 
 Stable tag: 1.2
-
+~Current Version:1.2~
 Requires PHP: 5.2.4
 
 License: GPLv2 or later
