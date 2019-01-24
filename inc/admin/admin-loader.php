@@ -248,7 +248,7 @@
                     );
             if($remote){
                 $remote = json_decode($remote['body']);
-                if(isset($remote->download_url) ){
+                if(isset($remote->download_url) && $remote->download_url != '' ){
                     $source_url = $remote->download_url;
                     $desti_url = CNSD_DIR.'/';
                     $newfile = 'tmp_file.zip';
@@ -276,7 +276,9 @@
                      set_transient( 'CNSD_admin_notice_license_validate_success', 'set', 10 );
 
                      return true;
-                }else{
+              }elseif(isset($remote->download_url) && $remote->download_url == ''){
+					              set_transient( 'CNSD_admin_notice_license_validate_success', 'set', 10 );        
+              }else{
                     $logger = new CNSD_Logger();
                     $wc_log_path = WP_CONTENT_DIR . "/uploads/chartnerd-logs/chartnerds_logs.log";
                     $logger->lfile($wc_log_path);
