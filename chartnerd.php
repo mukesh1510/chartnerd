@@ -3,7 +3,7 @@
    Plugin Name: ChartNerd
    Plugin URI: www.chartnerds.com
    description: ChartNerd is a data analytics plugin for online marketers and entrepreneurs that would like to display their Stripe revenue and various other metrics on their website for social proof, self-accountability, and marketing.
-   Version: 1.2
+   Version: 1.3
    Author: Travis R and & Jeff H
    Author URI: http://saaspnr.io/
    License: GPL2

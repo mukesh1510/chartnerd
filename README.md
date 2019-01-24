@@ -10,13 +10,13 @@ Requires at least: 4.6
 
 Tested up to: 4.7
 
-Stable tag: 1.2
+Stable tag: 1.3
 
-`~Current Version:1.2~`
+`~Current Version:1.3~`
 
-~Current Version:1.2~
+~Current Version:1.3~
 
-Current Version:1.2
+Current Version:1.3
 
 Requires PHP: 5.2.4
 
