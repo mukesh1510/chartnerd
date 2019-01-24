@@ -12,7 +12,7 @@ Tested up to: 4.7
 
 Stable tag: 1.2
 
-~ Current Version:1.2 ~
+`~Current Version:1.4~`
 
 Requires PHP: 5.2.4
 
