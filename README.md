@@ -14,6 +14,10 @@ Stable tag: 1.2
 
 ~Current Version:1.2~
 
+'~Current Version:1.2~'
+
+Current Version:1.2
+
 Requires PHP: 5.2.4
 
 License: GPLv2 or later
